@@ -1,12 +1,17 @@
-import express from "express";
-import bcrypt from "bcrypt";
+// Im not using this route because
+// I implemented all routes in a single route
+// If we want separate routes then separate them
 
-import { UserLogin } from "../models/userLoginModel.js";
 
-const router = express.Router();
+// import express from "express";
+// import bcrypt from "bcrypt";
 
-router.post("/login", async (request, response) => {
-  console.log(request.body);
-});
+// import { UserLogin } from "../models/userLoginModel.js";
 
-export default router;
+// const router = express.Router();
+
+// router.post("/login", async (request, response) => {
+//   console.log(request.body);
+// });
+
+// export default router;
