@@ -2,9 +2,10 @@ import mongoose from "mongoose";
 
 const userRegisterSchema = new mongoose.Schema(
   {
-    name: {
+    username: {
       type: "String",
       required: true,
+      unique: true,
     },
     email: {
       type: "String",
@@ -21,7 +22,4 @@ const userRegisterSchema = new mongoose.Schema(
   }
 );
 
-export const UserRegister = mongoose.model(
-  "userRegister",
-  userRegisterSchema
-);
+export const UserRegister = mongoose.model("userRegister", userRegisterSchema);
