@@ -5,8 +5,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "prestart": "chmod +x node_modules/.bin/ts-node",
-    "start": "ts-node index.ts",
+    "start": "node index.js",
     "server": "nodemon index.js",
     "build": "npm install && npm run start"
   },
