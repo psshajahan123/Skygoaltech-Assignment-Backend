@@ -7,7 +7,7 @@
   "scripts": {
     "start": "node index.js",
     "server": "nodemon index.js",
-    "build": "npm install && npm run build ."
+    "build": "npm install && npm run server"
   },
   "author": "",
   "license": "ISC",
